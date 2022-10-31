@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>glm-trimble</id>
+    <version>0.9.9.800</version>
+    <authors>glm contributors</authors>
+    <owners>glm</owners>
+    <projectUrl>https://github.com/Trimble-Technology/glm</projectUrl>
+    <license type="file">copying.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Header only C++ mathematics library for graphics software</description>
+    <title>glm-trimble</title>
+    <tags>glm native</tags>
+  </metadata>
+  <files>
+    <file src="glm-trimble.targets" target="\build\native\" />
+	  <file src="..\glm\**\*" target="\build\native\include\glm\" />
+	  <file src="..\copying.txt" target="" />
+  </files>
+</package>
